@@ -45,10 +45,10 @@ class ProductAdapter//getting the context and product list with constructor
 
         init {
             imageView = itemView.findViewById(R.id.iV_one)
-            textViewTitle = itemView.findViewById(R.id.tV_three)
-            textViewShortDesc = itemView.findViewById(R.id.tV_four)
-
-            imageView = itemView.findViewById(R.id.iV_two)
+//            textViewTitle = itemView.findViewById(R.id.tV_three)
+//            textViewShortDesc = itemView.findViewById(R.id.tV_four)
+//
+//            imageView = itemView.findViewById(R.id.iV_two)
             textViewTitle = itemView.findViewById(R.id.tV_one)
             textViewShortDesc = itemView.findViewById(R.id.tV_two)
 

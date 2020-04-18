@@ -1,27 +1,25 @@
 package com.example.myapp1
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.activity_main.*
 
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
     //a list to store all the products
-    internal lateinit var productList: MutableList<Product>
+    private lateinit var productList: MutableList<Product>
 
-    //the recyclerview
-    internal lateinit var recyclerView: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         //getting the recyclerview from xml
-        recyclerView = findViewById(R.id.recyclerview) as RecyclerView
-        recyclerView.setHasFixedSize(true)
-        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerview.setHasFixedSize(true)
+        recyclerview.layoutManager = LinearLayoutManager(this)
 
         //initializing the productlist
         productList = ArrayList()
@@ -30,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         //adding some items to our list
         productList.add(
             Product(
-                R.drawable.ic_sun,
+                R.drawable.food_3,
                 "Recipe Name",
                 "some description about the.."
 
@@ -38,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         )
         productList.add(
             Product(
-                R.drawable.ic_sun,
+                R.drawable.food_3,
                 "Recipe Name",
                 "some description about the.."
 
@@ -46,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         )
         productList.add(
             Product(
-                R.drawable.ic_sun,
+                R.drawable.food_3,
                 "Recipe Name",
                 "some description about the.."
 
@@ -54,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         )
         productList.add(
             Product(
-                R.drawable.ic_sun,
+                R.drawable.food_3,
                 "Recipe Name",
                 "some description about the.."
 
@@ -62,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         )
         productList.add(
             Product(
-                R.drawable.ic_sun,
+                R.drawable.food_3,
                 "Recipe Name",
                 "some description about the.."
 
@@ -70,7 +68,103 @@ class MainActivity : AppCompatActivity() {
         )
         productList.add(
             Product(
-                R.drawable.ic_sun,
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "some description about the.."
+
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
                 "Recipe Name",
                 "some description about the.."
 
@@ -82,6 +176,8 @@ class MainActivity : AppCompatActivity() {
         val adapter = ProductAdapter(this, productList)
 
         //setting adapter to recyclerview
-        recyclerView.adapter = adapter
+        val gridLayoutManager = GridLayoutManager(this, 2)
+        recyclerview.layoutManager = gridLayoutManager
+        recyclerview.adapter = adapter
     }
 }

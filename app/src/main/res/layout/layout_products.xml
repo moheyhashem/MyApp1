@@ -10,7 +10,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/CV_one"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="18dp"
         android:layout_margin="5dp"
@@ -20,16 +20,17 @@
 
         <LinearLayout
             android:id="@+id/ll_one"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="10dp">
 
             <ImageView
                 android:id="@+id/iV_one"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_sun" />
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/food_3" />
 
             <TextView
                 android:id="@+id/tV_one"
@@ -50,44 +51,4 @@
 
     </androidx.cardview.widget.CardView>
 
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/CV_two"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        app:cardCornerRadius="18dp"
-        app:cardElevation="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/CV_one"/>
-
-    <LinearLayout
-        android:id="@+id/ll_two"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="10dp">
-
-    <ImageView
-        android:id="@+id/iV_two"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_sun" />
-
-    <TextView
-        android:id="@+id/tV_three"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Recipe Name"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/tV_four"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="10ms"
-
-        android:text="some description about the.." />
-
-</LinearLayout>
-  </LinearLayout>
+ </LinearLayout>
