@@ -12,7 +12,7 @@
         android:id="@+id/CV_one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="18dp"
+        app:cardCornerRadius="5dp"
         android:layout_margin="5dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="10dp">
+           >
 
             <ImageView
                 android:id="@+id/iV_one"
@@ -36,14 +36,20 @@
                 android:id="@+id/tV_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Recipe Name"
+                android:text="@string/tv_one"
+                android:textSize="10sp"
+                android:textColor="@color/black"
                 android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/tV_two"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="some description about the.." />
+                android:text="some description about the.."
+                android:textSize="10sp"
+
+                android:textColor="@color/black"
+               />
 
         </LinearLayout>
 
