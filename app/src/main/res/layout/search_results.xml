@@ -56,6 +56,39 @@
         android:text="some description about the recipe"
         android:textColor="@color/black"
         android:textSize="10sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_star_yellow" />
+
+    <ImageView
+        android:id="@+id/iView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_star_yellow" />
+    <ImageView
+        android:id="@+id/iView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_star_yellow" />
+    <ImageView
+        android:id="@+id/iView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_star_yellow" />
+    <ImageView
+        android:id="@+id/iView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_star_yellow" />
+    </LinearLayout>
+
 </LinearLayout>
+
 
 </LinearLayout>
