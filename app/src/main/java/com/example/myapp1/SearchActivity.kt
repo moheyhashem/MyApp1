@@ -1,5 +1,8 @@
 package com.example.myapp1
+import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -18,6 +21,10 @@ class SearchActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.search_activity)
 
+
+        supportActionBar?.elevation = 0.0f
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_menu_black_24dp)
         //getting the recyclerview from xml
         rV_search.setHasFixedSize(true)
         rV_search.layoutManager = LinearLayoutManager(this)
@@ -180,5 +187,23 @@ class SearchActivity : AppCompatActivity() {
         val gridLayoutManager = GridLayoutManager(this, 1)
         rV_search.layoutManager = gridLayoutManager
         rV_search.adapter = adapter
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            android.R.id.home -> {
+                finish()
+            }
+            R.id.add -> {
+            }
+            R.id.view_all -> {
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
