@@ -177,7 +177,7 @@ class SearchActivity : AppCompatActivity() {
         val adapter = SearchAdapter(this, searchList)
 
         //setting adapter to recyclerview
-        val gridLayoutManager = GridLayoutManager(this, 2)
+        val gridLayoutManager = GridLayoutManager(this, 1)
         rV_search.layoutManager = gridLayoutManager
         rV_search.adapter = adapter
     }
