@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 class SearchAdapter//getting the context and product list with constructor
     (//this context we will use to inflate the layout
     private val mCtx: Context, //we are storing all the products in a list
-    private val productList: List<Product>
+    private val searchList: List<Product>
 ) : RecyclerView.Adapter<SearchAdapter.ProductViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
@@ -23,7 +23,7 @@ class SearchAdapter//getting the context and product list with constructor
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
         //getting the product of the specified position
-        val product = productList[position]
+        val product = searchList[position]
         holder.imageView.setImageDrawable(mCtx.resources.getDrawable(product.image))
         holder.textViewTitle.text = product.title
         holder.textViewShortDesc.text = product.shortdesc
@@ -33,7 +33,7 @@ class SearchAdapter//getting the context and product list with constructor
 
 
     override fun getItemCount(): Int {
-        return productList.size
+        return searchList.size
     }
 
 

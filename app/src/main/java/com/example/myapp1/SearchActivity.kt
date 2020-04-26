@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.search_activity.*
 
 import java.util.ArrayList
 
@@ -18,8 +19,8 @@ class SearchActivity : AppCompatActivity() {
         setContentView(R.layout.search_activity)
 
         //getting the recyclerview from xml
-        recyclerview.setHasFixedSize(true)
-        recyclerview.layoutManager = LinearLayoutManager(this)
+        rV_search.setHasFixedSize(true)
+        rV_search.layoutManager = LinearLayoutManager(this)
 
         //initializing the productlist
         searchList = ArrayList()
@@ -177,7 +178,7 @@ class SearchActivity : AppCompatActivity() {
 
         //setting adapter to recyclerview
         val gridLayoutManager = GridLayoutManager(this, 2)
-        recyclerview.layoutManager = gridLayoutManager
-        recyclerview.adapter = adapter
+        rV_search.layoutManager = gridLayoutManager
+        rV_search.adapter = adapter
     }
 }
