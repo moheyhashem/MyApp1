@@ -38,7 +38,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -46,7 +46,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -54,7 +54,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -62,7 +62,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -70,7 +70,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -78,7 +78,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -86,7 +86,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -94,7 +94,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -102,7 +102,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -110,7 +110,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -118,7 +118,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -126,7 +126,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -134,7 +134,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -142,7 +142,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -150,7 +150,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -158,7 +158,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -166,7 +166,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )
@@ -174,7 +174,7 @@ class SearchActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe"
 
             )
         )

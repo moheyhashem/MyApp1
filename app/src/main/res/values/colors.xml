@@ -3,9 +3,10 @@
     <color name="colorPrimary">#66D1C8</color>
     <color name="colorPrimaryDark">#66D1C8</color>
     <color name="colorWhite">#FFFFFF</color>
-    <color name="color">#DFFFFFFF</color>
+    <color name="color">#FFFFFF</color>
     <color name="colorRate">#F8FF3B</color>
     <color name="colorAccent">#66D1C8</color>
-    <color name="colorSearch">#00CDD4</color>
+    <color name="colorSearch">#72009688</color>
+    <color name="colorFilter">#F5F6FA</color>
     <color name="black">#000000</color>
 </resources>
