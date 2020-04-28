@@ -34,9 +34,9 @@ class SearchAdapter//getting the context and product list with constructor
         holder.textViewShortDesc.text = product.shortdesc
         holder.ratingBar.numStars= product.ratingBar
         holder.imageViewHeart.setImageDrawable(mCtx.getDrawable(product.heart))
-        holder.textViewNum.setText(product.num)
+        holder.textViewNum.setText(product.num.toString())
         holder.imageViewChat.setImageDrawable(mCtx.getDrawable(product.chat))
-        holder.textViewNotification.setText(product.notification)
+        holder.textViewNotification.setText(product.notification.toString())
 
     }
 
