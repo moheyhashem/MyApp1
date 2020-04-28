@@ -59,7 +59,7 @@
 
 
         <RatingBar
-            android:id="@+id/ratingBar"
+            android:id="@+id/rB"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:indeterminate="false"
@@ -77,26 +77,26 @@
     android:layout_marginTop="20dp"
     android:orientation="horizontal">
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iV_heart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_favorite_red" />
+        app:srcCompat="@drawable/favorite_red" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tV_num"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="75" />
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/iV_chat"
         android:layout_width="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_chat" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tV_notification"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"

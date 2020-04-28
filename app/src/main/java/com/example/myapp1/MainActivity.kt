@@ -30,7 +30,12 @@ class MainActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
 
             )
         )
@@ -38,7 +43,12 @@ class MainActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
 
             )
         )
@@ -46,7 +56,24 @@ class MainActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
 
             )
         )
@@ -54,7 +81,60 @@ class MainActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
 
             )
         )
@@ -62,7 +142,48 @@ class MainActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
+            )
+        )
+        productList.add(
+            Product(
+                R.drawable.food_3,
+                "Recipe Name",
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
 
             )
         )
@@ -70,7 +191,12 @@ class MainActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
 
             )
         )
@@ -78,7 +204,12 @@ class MainActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
 
             )
         )
@@ -86,7 +217,12 @@ class MainActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
 
             )
         )
@@ -94,79 +230,24 @@ class MainActivity : AppCompatActivity() {
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
-
-            )
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
+        )
         )
         productList.add(
             Product(
                 R.drawable.food_3,
                 "Recipe Name",
-                "some description about the.."
-
-            )
-        )
-        productList.add(
-            Product(
-                R.drawable.food_3,
-                "Recipe Name",
-                "some description about the.."
-
-            )
-        )
-        productList.add(
-            Product(
-                R.drawable.food_3,
-                "Recipe Name",
-                "some description about the.."
-
-            )
-        )
-        productList.add(
-            Product(
-                R.drawable.food_3,
-                "Recipe Name",
-                "some description about the.."
-
-            )
-        )
-        productList.add(
-            Product(
-                R.drawable.food_3,
-                "Recipe Name",
-                "some description about the.."
-
-            )
-        )
-        productList.add(
-            Product(
-                R.drawable.food_3,
-                "Recipe Name",
-                "some description about the.."
-
-            )
-        )
-        productList.add(
-            Product(
-                R.drawable.food_3,
-                "Recipe Name",
-                "some description about the.."
-
-            )
-        )
-        productList.add(
-            Product(
-                R.drawable.food_3,
-                "Recipe Name",
-                "some description about the.."
-
-            )
-        )
-        productList.add(
-            Product(
-                R.drawable.food_3,
-                "Recipe Name",
-                "some description about the.."
+                "Some description about the recipe",
+                ratingBar = 5,
+                heart = R.drawable.favorite_red,
+                num = 75,
+                chat = R.drawable.ic_chat,
+                notification = 120
 
             )
         )
