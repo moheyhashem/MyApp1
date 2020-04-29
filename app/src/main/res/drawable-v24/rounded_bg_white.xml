@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:stroke="http://schemas.android.com/aapt"
 >
-    <corners android:radius="30dp"/>
+    <corners android:radius="60dp"/>
     <solid android:color="@android:color/white" />
-    <stroke android:width="22dp"/>
+    <stroke android:width="60dp"/>
     <stroke android:color="#FFFFFF"/>
 </shape>
